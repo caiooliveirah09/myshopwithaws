@@ -1,5 +1,4 @@
 "use client";
-import UserPool from "@/UserPool";
 import { checkIsPublicRoute } from "@/session/checkIsPublicRoute";
 import { getSession } from "@/session/getSession";
 import { usePathname, useRouter } from "next/navigation";
