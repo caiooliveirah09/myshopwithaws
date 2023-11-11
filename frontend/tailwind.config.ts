@@ -14,6 +14,7 @@ const config: Config = {
         button: '0px 0px 3px #a5f3fc, 0 0 5px #a5f3fc, 0 0 20px #a5f3fc, 0 0 30px #a5f3fc',
         link: '0px 0px 3px #03bcf4, 0 0 5px #03bcf4, 0 0 8px #03bcf4, 0 0 10px #03bcf4',
         price: '0px 0px 3px #a3e635, 0 0 5px #a3e635, 0 0 8px #a3e635, 0 0 10px #a3e635',
+        danger: '0px 0px 3px #f43f5e, 0 0 5px #f43f5e, 0 0 8px #f43f5e, 0 0 10px #f43f5e',
         none: 'none',
       },
       boxShadow: {

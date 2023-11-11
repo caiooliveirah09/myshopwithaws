@@ -31,7 +31,7 @@ export default function Session ({children }: {children: React.ReactNode }) {
       }
     };
     checkAuthentication(); 
-  })
+  }, [])
   
   return (
     <SessionContext.Provider value={{ userAuthenticated }}>
@@ -40,3 +40,5 @@ export default function Session ({children }: {children: React.ReactNode }) {
     </SessionContext.Provider>
   )
 }
+
+export const useSession = () => React.useContext(SessionContext);
